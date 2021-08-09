@@ -1,5 +1,7 @@
 # SAR Processing
 
-Repository for the processing pipline using _GDAL_ and _OpenCV_ libraries. Initially it was used for grayscale SAR processing, but it can be any other GDAL-supported raster format as input (e.g. _GeoTIFF_).
+Repository for ODS Summer of Code event with preprocessing and segmentation piplines.
+
+Preprocessing pipeline uses _GDAL_ and _OpenCV_ libraries. Segmentation pipeline uses _PyTorch_ and _Segmentation Models_ frameworks.
 
 It is supposed to be used with _Google Colaboratory_ (_File -> Open notebook -> GitHub_).
