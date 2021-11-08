@@ -7,7 +7,7 @@ Preprocessing pipeline uses _GDAL_ and _OpenCV_ libraries. Segmentation pipeline
 It is supposed to be used with _Google Colaboratory_ (_File -> Open notebook -> GitHub_).
 
 
-## Setup Kaggle Kernel for train models
+## Setup Kaggle Kernel for training models
 
 [Kaggle Kernels](https://www.kaggle.com/) – is a cloud-based development environment similar to Google Colab. Kaggle provides free access to the GPU for 37 hours per week.
 
@@ -35,7 +35,7 @@ It is supposed to be used with _Google Colaboratory_ (_File -> Open notebook -> 
        'batch_size_valid': 1,
        'num_workers_train': 1,
        'num_workers_valid': 1,
-       'model_encoder': 'resnet34',
+       'model_encoder': 'ResNet32',
        'model_pretrain': 'ImageNet',
        'model_channels': 3,
        'data_split': 1,
